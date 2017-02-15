@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.jiang.model">
+    <class name="user" table="user">
+        <id name="id" column="id" type="java.lang.Integer"></id>
+        <property name="name" column="name" type="java.lang.String" />
+        <property name="pad" column="pad" type="java.lang.Integer" />
+        <property name="phone" column="phone" type="java.lang.String" />
+        <property name="juese" column="juese" type="java.lang.String" />
+    </class>
+</hibernate-mapping>
